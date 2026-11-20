@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.venv*/
+
+# Local application data
+backend/scamshield.db
+backend/*.db
+backend/.env
+
+# JavaScript dependencies and builds
+website/node_modules/
+website/dist/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
+*.tsbuildinfo
+
+# Expo/native signing material
+*.jks
+*.keystore
+*.p12
+*.key
